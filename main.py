@@ -26,7 +26,7 @@ def check_temp(d):
     h2 = d.humidity()
     print('t1: {}, t2: {}'.format(t1, t2))
     print('h1: {}, h2: {}'.format(h1, h2))
-    return (t1+t2)/2, (h1/h2)/2
+    return (t1+t2)/2, (h1+h2)/2
 
 gc.enable()
 esp.osdebug(None)
